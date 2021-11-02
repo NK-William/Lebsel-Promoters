@@ -8,7 +8,11 @@ class LoginPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Palette.primaryColor,
-      appBar: AppBar(title: Text(""), backgroundColor: Palette.primaryColor),
+      appBar: AppBar(
+        elevation: 0.0,
+        title: Text("Login"),
+        backgroundColor: Palette.primaryColor,
+      ),
       body: SafeArea(
         child: Text(
           'Welcome to login',

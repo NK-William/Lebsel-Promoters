@@ -9,12 +9,10 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text("Home"),
       ),
-      body: SafeArea(
-        child: Column(
-          children: [
-            Text("Test on github"),
-          ],
-        ),
+      body: Column(
+        children: [
+          Text("Test on github"),
+        ],
       ),
     );
   }

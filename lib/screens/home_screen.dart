@@ -11,7 +11,7 @@ class HomePage extends StatelessWidget {
       ),
       body: Column(
         children: [
-          Text("Test on github"),
+          Text("Test home page"),
         ],
       ),
     );

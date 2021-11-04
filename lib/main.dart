@@ -23,8 +23,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Lebsel Promoters',
       theme: ThemeData(
-          primarySwatch: Palette.primaryColor,
-          primaryColorDark: Palette.primaryColor),
+          primarySwatch: Palette.kPrimarySwatchColor,
+          primaryColorDark: Palette.kPrimarySwatchColor),
       home: chooseStartupPage(),
     );
   }

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class Palette {
-  static const MaterialColor primaryColor = MaterialColor(
+  static const MaterialColor kPrimarySwatchColor = MaterialColor(
     _primaryValue,
     <int, Color>{
       50: Color(0xFFb500f2),
@@ -17,4 +17,7 @@ class Palette {
     },
   );
   static const int _primaryValue = 0xFF1f1a30;
+  static const Color kTextFieldFillColor = Color(0xFF39304D);
+  static const Color kaccentColor = Color(0xFF0DF6E3);
+  static const Color kwhiteTextColor = Color(0xFFF6F2FF);
 }
